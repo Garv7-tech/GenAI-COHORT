@@ -1,0 +1,186 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Light background and soft typography */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background-color: #ffffff;
+    padding: 20px 0;
+    border-bottom: 1px solid #e0e0e0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+header h1 {
+    font-size: 2.2rem;
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    font-size: 1rem;
+    color: #7f8c8d;
+}
+
+/* Navigation bar */
+nav {
+    padding: 10px;
+    text-align: center;
+    background-color: #fdfdfd;
+    border-bottom: 1px solid #ddd;
+}
+
+.primary-btn {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.primary-btn:hover {
+    background-color: #2980b9;
+}
+
+/* Main layout container */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 10px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+/* Sections styling */
+.input-section,
+.output-section {
+    flex: 1 1 45%;
+    min-width: 320px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.input-section h2,
+.output-section h2 {
+    margin-bottom: 15px;
+    color: #34495e;
+}
+
+.input-textarea,
+.display textarea {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    resize: none;
+    background-color: #fefefe;
+    color: #333;
+}
+
+.display {
+    margin-top: 10px;
+}
+
+/* Make token colors look like nice inline blocks if you want */
+.output-box {
+    width: 100%;
+    min-height: 200px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #fefefe;
+    color: #333;
+    font-size: 1rem;
+    line-height: 1.6;
+    overflow-y: auto;
+    white-space: normal;
+    word-break: break-word;
+}
+
+
+/* Footer styling */
+.site-footer {
+    background-color: #f1f1f1;
+    padding: 15px 20px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    font-size: 0.9rem;
+    margin-top: 40px;
+}
+
+.site-footer .disclaimer {
+    margin-bottom: 8px;
+    color: #7f8c8d;
+}
+
+.site-footer .contact-info {
+    color: #333;
+}
+
+.site-footer .github-link {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+    margin-left: 5px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.site-footer .github-link img {
+    margin-right: 5px;
+}
+
+/* 📱 Mobile Responsiveness */
+@media (max-width: 900px) {
+    .container {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .input-section,
+    .output-section {
+        width: 100%;
+        flex: 1 1 100%;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    .primary-btn {
+        width: 100%;
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .input-textarea,
+    .display textarea {
+        font-size: 0.95rem;
+        padding: 12px;
+    }
+
+    .primary-btn {
+        padding: 10px;
+    }
+}

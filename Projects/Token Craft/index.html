@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Token Craft</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://img.icons8.com/?size=100&id=uY9mhkqHSBmp&format=png&color=000000" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <h1>TokenCraft</h1>
+        <p class="subtitle">Text Tokenization Visualizer</p>
+    </header>
+    <nav>
+        <button id="tokenizeBtn" class="primary-btn">Tokenize Text</button>
+    </nav>
+    <main class="container">
+        <!-- Input Section -->
+        <section class="input-section">
+            <h2>Input Text</h2>
+            <textarea id="InputArea" class="input-textarea" placeholder="Enter the text you want to tokenize..." cols="79" rows="26"></textarea>
+        </section>
+
+        <!-- Output Section -->
+        <section class="output-section">
+
+            <div class="encoded-sequence-area">
+                <h2>Encoded Sequence Output</h2>
+                <div class="display">
+                    <div id="encodedSequenceOutput" class="output-box"></div>
+                </div>
+            </div>
+
+            <div class="tokenize-area">
+                <h2>Tokenized Output</h2>
+                <div class="display">
+                    <textarea id="tokenOutput" cols="50" rows="13" ></textarea>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p class="disclaimer">Note: This is an educational demonstration of tokenization concepts and not a production-grade tokenizer.</p>
+            <div class="contact-info">
+                <span>Find me on: </span>
+                <a href="https://github.com/Garv7-tech" class="github-link" target ='_blank'>
+                    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub"
+                        width="20" height="20">
+                    GitHub
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
