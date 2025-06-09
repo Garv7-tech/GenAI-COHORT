@@ -18,7 +18,7 @@
 
 *Check out the screen recording below to see Persona Chat in action!*
 
-<video controls src="../Persona Chat/Recording 2025-06-09 072316.mp4" title="Persona Chat Demo"></video>
+<video controls src="./Recording 2025-06-09 072316.mp4" title="Persona Chat Demo"></video>
 
 ---
 

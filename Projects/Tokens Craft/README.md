@@ -10,7 +10,7 @@
 
 ## 🚀 Live Demo
 
-🔗 [**Check out the app**](https://token-craft-genai-chaicode.vercel.app/)  
+🔗 [**Check out the app**](https://)  
 🌐 Hosted with ❤️ on Vercel
 
 ---
