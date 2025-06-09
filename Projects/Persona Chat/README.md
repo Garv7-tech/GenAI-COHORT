@@ -18,7 +18,7 @@
 
 *Check out the screen recording below to see Persona Chat in action!*
 
-<video controls src="Recording 2025-06-09 072316.mp4" title="Persona Chat Demo"></video>
+<video controls src="../Persona Chat/Recording 2025-06-09 072316.mp4" title="Persona Chat Demo"></video>
 
 ---
 
@@ -75,15 +75,15 @@ npm run pg
 
 ## 🧑‍💻 Add Your Own Persona
 
-Just provide the persona’s name and their social media links as a JSON object when running the CLI. See the scripts in [package.json](package.json) for examples.
+Just provide the persona’s name and their social media links as a JSON object when running the CLI. See the scripts in [package.json](../Personas Chat/package.json) for examples.
 
 ---
 
 ## 📦 Project Structure
 
-- [`talk.js`](talk.js): Main CLI chatbot logic
-- [`package.json`](package.json): Scripts and dependencies
-- [`docker-compose.db.yml`](docker-compose.db.yml): Qdrant vector database (optional, for future features)
+- [`talk.js`](../Personas Chat/talk.js): Main CLI chatbot logic
+- [`package.json`](../Personas Chat/package.json): Scripts and dependencies
+- [`docker-compose.db.yml`](../Personas Chat/docker-compose.db.yml): Qdrant vector database (optional, for future features)
 
 ---
 ## 📢 Stay Tuned

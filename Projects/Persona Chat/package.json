@@ -1,6 +1,7 @@
 {
   "name": "persona-chat",
   "version": "1.0.0",
+  "description": "**Persona Chat** is a terminal-based chatbot that lets you interact with your favorite tech educators and software developers—powered by Gemini LLM! Get answers in Hinglish and English, with responses crafted in the unique tone and style of the educator’s social media persona.",
   "main": "talk.js",
   "type": "module",
   "scripts": {
@@ -10,7 +11,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "dotenv": "^16.5.0",
     "openai": "^5.1.1",

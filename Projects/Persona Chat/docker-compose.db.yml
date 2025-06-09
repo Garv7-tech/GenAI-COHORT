@@ -5,4 +5,4 @@ services:
     image: qdrant/qdrant
     container_name: "persona_chat_qdrant"
     ports:
-      - "6343:6343"
+      - "6344:6344"
