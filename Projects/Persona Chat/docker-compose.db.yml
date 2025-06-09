@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  qdrant:
+    image: qdrant/qdrant
+    container_name: "persona_chat_qdrant"
+    ports:
+      - "6343:6343"

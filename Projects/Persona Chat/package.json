@@ -1,0 +1,19 @@
+{
+  "name": "persona-chat",
+  "version": "1.0.0",
+  "main": "talk.js",
+  "type": "module",
+  "scripts": {
+    "hc": "node talk.js \"Hitesh Choudhary\" \"{\\\"socialMediaName\\\":\\\"Hitesh Choudhary\\\",\\\"profileLinks\\\":{\\\"YouTube\\\":\\\"https://youtube.com/@chaiaurcode\\\",\\\"X\\\":\\\"https://x.com/Hiteshdotcom\\\"}}\"",
+    "pg": "node talk.js \"Piyush Garg\" \"{\\\"socialMediaName\\\":\\\"Piyush Garg\\\",\\\"profileLinks\\\":{\\\"YouTube\\\":\\\"https://youtube.com/c/piyushgarg1\\\",\\\"X\\\":\\\"https://x.com/piyushgarg_dev\\\"}}\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "openai": "^5.1.1",
+    "readline": "^1.3.0"
+  }
+}
