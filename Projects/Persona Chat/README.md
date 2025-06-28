@@ -17,8 +17,7 @@
 ## 🎬 Demo
 
 *Check out the screen recording below to see Persona Chat in action!*
-
-<video controls src="./Recording 2025-06-09 072316.mp4" title="Persona Chat Demo"></video>
+[Persona Chat Demo](https://screenapp.io/app/#/shared/4Z91uIb2T_)
 
 ---
 
