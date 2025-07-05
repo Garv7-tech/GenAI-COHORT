@@ -1,0 +1,18 @@
+{
+  "name": "ai-socrates",
+  "version": "1.0.0",
+  "main": "dilaticDiscussion.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.0.1",
+    "node-fetch": "^3.3.2",
+    "play-sound": "^1.1.6"
+  }
+}
